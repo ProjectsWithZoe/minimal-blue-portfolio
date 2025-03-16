@@ -6,7 +6,7 @@ const Projects = () => {
       title: "MatchMe",
       description:
         "A job description and CV matching app for junior developers, career switchers and other tech professionals.",
-      image: "public/1.png",
+      image: "/1.png",
       technologies: [
         "React",
         "Javascript",
@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Wingwoman",
       description:
         "An AI powered dating and advice app that gives you sassy and meaningful advice about different life situations and problems",
-      image: "public/2.png",
+      image: "/2.png",
       technologies: [
         "React",
         "Javascript",
@@ -40,7 +40,7 @@ const Projects = () => {
       title: "Funmaps",
       description:
         "An interactive map that allows tourists to see libraries, airports, museums etc near their location. Also finds news, converts currency and finds public holidays of that location.",
-      image: "public/3.png",
+      image: "/3.png",
       technologies: ["HTML", "CSS", "Javascript", "jQuery", "PHP", "APIs"],
       github: "https://github.com/ProjectsWithZoe/zoeMwangi/tree/main/project1",
       live: "https://www.funmaps.co.uk",
@@ -50,7 +50,7 @@ const Projects = () => {
       title: "Company Directory",
       description:
         "A simple CRUD app that creates, reads, updates and deletes data from a company directory to maintain their employee, location and department directory.",
-      image: "public/4.png",
+      image: "/4.png",
       technologies: [
         "HTML",
         "CSS",
@@ -68,7 +68,7 @@ const Projects = () => {
       title: "Pats Kitchen",
       description:
         "A personal website that showcases a soloprenuers catering website. Has a contact form, various menus and implements a whatsapp chat icon for easy contact.",
-      image: "public/5.png",
+      image: "/5.png",
       technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Vercel"],
       github: "https://github.com/ProjectsWithZoe/Pats-Kitchen-Website",
       live: "https://pats-kitchen-website.vercel.app",
@@ -78,7 +78,7 @@ const Projects = () => {
       title: "Trusted Portfolio",
       description:
         "A website creation website tailored to solo individuals, e-commerce business owners or people looking to rebuild their websites.",
-      image: "public/6.png",
+      image: "/6.png",
       technologies: ["HTML", "CSS", "Javascript", "Cardd", "React"],
       github: "#",
       live: "https://www.trustedportfolio.com",

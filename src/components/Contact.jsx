@@ -157,11 +157,15 @@ const Contact = () => {
               <button
                 type="submit"
                 className="btn-primary w-full justify-center"
+                disabled={isSubmitting}
               >
-                Send Message
+                {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={18} />
               </button>
             </form>
+            {submissionStatus && (
+              <p className="text-center text-white mt-4">{submissionStatus}</p>
+            )}
           </div>
         </div>
       </div>

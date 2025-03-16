@@ -22,7 +22,7 @@ const Contact = () => {
     setSubmissionStatus("");
 
     try {
-      const response = await fetch("https://zoemwangi.co.uk/api/send-message", {
+      const response = await fetch("/api/send-message", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

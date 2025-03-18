@@ -85,11 +85,19 @@ const Projects = () => {
       completed: true,
     },
     {
-      title: "MatchMe",
+      title: "AlwaysReturn",
       description:
-        "A full-featured online store with product management, cart, and checkout functionality.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+        "A daily coding challenge inspired by the NYT Games to improve coding and problem solving skills in a fun way",
+      image: "/7.png",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "React",
+        "Vercel",
+        "Firebase",
+        "APIs",
+      ],
       github: "#",
       live: "#",
       completed: false,
@@ -173,10 +181,7 @@ const ProjectCard = ({ project, index }) => (
 
       <div className="flex flex-wrap gap-2 mb-4">
         {project.technologies.map((tech) => (
-          <span
-            key={tech}
-            className="text-xs px-2 py-1 bg-blue-light/20 rounded-full"
-          >
+          <span key={tech} className="text-xs px-2 py-2 border rounded-full">
             {tech}
           </span>
         ))}

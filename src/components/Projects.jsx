@@ -3,6 +3,42 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "",
+      description:
+        "A daily coding web app that's a combination of leetcode challenges and NYT Daily Games.",
+      image: "/9.png",
+      technologies: [
+        "React",
+        "Javascript",
+        "Firebase",
+        " Tailwind CSS",
+        "Node.js",
+        "Vercel",
+        "RESTFul APIs",
+      ],
+      github: "https://github.com/ProjectsWithZoe/code-challenge-journey",
+      live: "https://www.alwaysreturn.site",
+      completed: false,
+    },
+    {
+      title: "TheWorldToday",
+      description:
+        "A news app filtering out news from some countries based on preference.",
+      image: "/8.png",
+      technologies: [
+        "React",
+        "Javascript",
+        "Firebase",
+        " Tailwind CSS",
+        "Node.js",
+        "Vercel",
+        "RESTFul APIs",
+      ],
+      github: "https://github.com/ProjectsWithZoe/news-splash-surf",
+      live: "https://www.theworldtoday.space",
+      completed: true,
+    },
+    {
       title: "MatchMe",
       description:
         "A job description and CV matching app for junior developers, career switchers and other tech professionals.",

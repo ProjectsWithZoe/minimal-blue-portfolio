@@ -120,24 +120,6 @@ const Projects = () => {
       live: "https://www.trustedportfolio.com",
       completed: true,
     },
-    {
-      title: "AlwaysReturn",
-      description:
-        "A daily coding challenge inspired by the NYT Games to improve coding and problem solving skills in a fun way",
-      image: "/7.png",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Tailwind CSS",
-        "React",
-        "Vercel",
-        "Firebase",
-        "APIs",
-      ],
-      github: "#",
-      live: "#",
-      completed: false,
-    },
   ];
 
   const completedProjects = projects.filter((project) => project.completed);

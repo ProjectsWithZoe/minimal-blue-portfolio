@@ -3,7 +3,7 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "",
+      title: "AlwaysReturn",
       description:
         "A daily coding web app that's a combination of leetcode challenges and NYT Daily Games.",
       image: "/9.png",
